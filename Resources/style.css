@@ -1,0 +1,180 @@
+* {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+}
+
+/* 1 header
+2 hero
+3 queries
+4 footer
+5 component
+6 responsive */
+
+/* 1 header */
+header {
+  background-color: black;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.title {
+  width: 50%;
+  display: flex;
+}
+
+.title img {
+  width: 2rem;
+  margin-left: 10%;
+  padding-right: 5px;
+  border-right: 1px solid white;
+}
+
+.title p {
+  color: white;
+  margin: 8px;
+}
+
+.button {
+  width: 50%;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 5%;
+}
+#submit-button {
+  margin-left: 60%;
+  margin-right: 8px;
+  height: 40px;
+  width: 20%;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#login-button {
+  width: 8rem;
+  margin-right: 10%;
+  background-color: #1e90ff;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 2 help */
+.help {
+  background-color: #adbce4;
+  height: 20rem;
+  text-align: center;
+  position: relative;
+  top: -1.7rem;
+}
+
+.help h1 {
+  font-size: 2.5rem;
+  padding-top: 7rem;
+  margin-bottom: 0.5rem;
+}
+
+#textbox {
+  width: 25rem;
+  height: 2rem;
+}
+
+#textbox h1 {
+  font-weight: 900;
+}
+
+#textbox::placeholder {
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+
+/* 3 queries */
+.tasks {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+}
+
+.task-box {
+  width: 40%;
+  height: fit-content;
+  /* background-color: yellow; */
+  margin-top: 2rem;
+  display: flex;
+}
+
+.task-box img {
+  width: 25%;
+  height: 50%;
+  margin-right: 1rem;
+}
+
+.task-box a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+/* 4 more links */
+footer {
+  background-color: black;
+  display: flex;
+  height: ;
+}
+
+
+.more-links {
+    width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.link-block{
+
+}
+
+.link-block h3,h4,a{
+  color: white;
+  text-decoration: none;
+}
+
+.link-block h3{
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.link-block a{
+  margin-bottom: 0;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.logo-container{
+  height: 60%;
+}
+#logo{
+  width: 2rem;
+  position: relative;
+  bottom: -80%;
+}
+#copyright p{
+  color: white;
+}
